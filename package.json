@@ -1,0 +1,16 @@
+{
+  "name": "comunicados",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "mssql": "^4.0.1",
+    "nodemailer": "^4.0.1",
+    "rand-token": "^0.3.0",
+    "smtp-server": "^3.0.1",
+    "socket.io": "^1.7.3"
+  }
+}
